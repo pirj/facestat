@@ -1,0 +1,18 @@
+/* TEAM */
+  All development: Phil Pirozhkov
+  Twitter: @phil_pirozhkov
+  From: Russia, Saint-Petersburg
+
+/* THANKS */
+Kotya Karpentyan, Vadim Lebedev for being insistent and making me finish this tool
+
+/* SITE */
+  Site: http://facestat.
+  Github: https://github.com/pirj/trust
+  Language: Russian
+  Software: Linux, Sublime+Vintage, git, Github.com
+  Components: Ruby, Padrino, Sinatra, DataMapper, Slim, Blueprint.css, YepNope.js, Zepto, jQuery, jQuery Loadmask plugin, jGrowl plugin, CSS Sticky Footer
+  3rd party: Reformal, TenderApp, Google Analytics
+
+/* LICENSE */
+  http://creativecommons.org/licenses/by-nc-sa/3.0/

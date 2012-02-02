@@ -1,0 +1,2 @@
+Facestat.helpers do
+end

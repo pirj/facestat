@@ -1,0 +1,82 @@
+html {height: 100%;}
+body {margin: 0; overflow-x: hidden; min-height: 100%;}
+
+#footer {
+  padding-top: 2px;
+  height: 34px;
+  margin-top: -36px;
+}
+#footer a {height: 0;}
+#main {padding-bottom: 36px;}
+
+.top {padding-top: 8px; }
+.header span.h1 {font-size: 24px; }
+.header p {margin-left: 0px; }
+
+img.nano {height: 1.2em; }
+
+#logins {
+  float: right;
+  margin-top: -10px;
+  padding: .5em;
+  background-color: #ffffaa;
+  cursor: pointer;
+  border: 1px solid #eeeeaa;
+  border-radius: 0 0 5px 5px;
+}
+
+#logins a {text-decoration: none; }
+#logins .prompt span {padding: .5em; }
+#logins span {font-weight: bold; }
+#not_logged_in, #logins .fb {margin: .5em; }
+
+.loggedinfb #not_logged_in {display: none; }
+.loggingin {display: none; padding-right: .5em; }
+.loggingin.loggingfb {display: inline; }
+
+.loggedinfb .add .inputs {display: block; }
+
+.groups span {margin-right: 1em; }
+.groups a.active {font-weight: bold; }
+
+.right {float: right; }
+.narrow {width: 100px; }
+.ultranarrow {width: 50px; }
+
+.add {
+  border: 1px solid gray;
+  background-color: #dfb;
+  padding: .5em 0 .2em 0;
+  text-align: center;
+}
+.collapsed {
+  cursor: s-resize;
+}
+.collapsed .form {
+  display: none;
+}
+.add .form textarea {
+  width: 45%;
+  height: 3.5em;
+  resize: none;
+  padding: 0;
+}
+.add .handle div {
+  width: 6%;
+  margin: 0 47% 0 47%;
+  padding-bottom: 1px;
+  border-bottom: 1px solid gray;
+}
+
+.yellow {background-color: yellow; }
+
+.hidden {display: none; }
+
+.menu ul {list-style-type:none; margin: 0; padding: 0; }
+.menu ul li {display: inline; margin: .5em 1em .5em 0; }
+.menu a {text-decoration: none; font-style: italic; border-bottom: 1px dotted blue;}
+
+.valid {border: 1px solid green !important; }
+.invalid {border: 2px solid red !important; }
+
+img.github {position: absolute; top: -15px; left: -15px; border: 0; }

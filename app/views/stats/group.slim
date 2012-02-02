@@ -1,0 +1,17 @@
+table
+  - @actions.each do |action|
+    tr
+      td
+        a href="//facebook.com/#{action[:author_id]}"
+          == action[:author]
+      td
+        a href=action[:link]
+          == action[:topic]
+      td
+        a href=action[:link]
+          == action[:action]
+      td
+        a href=action[:link]
+          == action[:message]
+      td == action[:time]
+

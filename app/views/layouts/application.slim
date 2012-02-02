@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    title Статистика по группам Facebook
+    meta name="keywords" content="Статистика по группам Facebook"
+    meta property="fb:app_id" content="100619140066994"
+    link rel="author" href="humans.txt"
+    == stylesheet_link_tag 'grid', 'forms', 'stickyfooter', 'base'
+
+  body
+    div#fb-root
+    div#wrap
+      div#main.container
+        a href="https://github.com/pirj/facestats"
+          img.github src="https://a248.e.akamai.net/assets.github.com/img/edc6dae7a1079163caf7f17c60495bbb6d027c93/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub"
+
+        div.top
+          div#logins
+            .login
+              span#not_logged_in
+                span.loggingin.loggingfb
+                  img src='/images/loading.gif'
+                span
+                  a Войти
+              span.fb
+                img.nano src='/images/facebook.png'
+                span.name
+
+          .header
+            p
+              span.h1 Статистика по группам Facebook
+        hr
+
+        div
+          == yield
+
+    div#footer.container
+      a href="humans.txt"
+        img alt="О сайте" title="О сайте" src="/images/humanstxt.gif"
+      a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
+        img src='/images/CC-BY-NC-SA.png' alt='Лицензионное соглашение' title='Лицензионное соглашение'        
+
+    == javascript_include_tag 'yepnope-min.js'
+    script
+      | yepnope('/javascripts/init.js')
